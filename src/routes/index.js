@@ -8,10 +8,11 @@ try {
     if (file !== 'index.js') {
         const route = require(`./${file}`);
         router.use('/calendar',route);
-    }
-    });
+    }});
+
+    module.exports = router;
 } catch (error) {
     console.log(error);
 }  
 
-    module.exports = router;
+    
