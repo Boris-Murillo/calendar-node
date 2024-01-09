@@ -1,6 +1,7 @@
 const { getDataCalendar } = require("../services/calendar");
 
 const getList = (req, res) => {
+    console.log('getList');
     res.send( {data: getDataCalendar()} );
 };
 
