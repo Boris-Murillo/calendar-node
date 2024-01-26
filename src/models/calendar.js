@@ -13,7 +13,7 @@ const MOCK_CALENDAR = [
     },
     {
         id: 3,
-        title: 'Third Event',
+        title: 'Third Eventtt',
         start: new Date(),
         end: new Date(),
     },
