@@ -17,6 +17,12 @@ const MOCK_CALENDAR = [
         start: new Date(),
         end: new Date(),
     },
+    {
+        id: 4,
+        title: 'Fourth Event',
+        start: new Date(),
+        end: new Date(),
+    }
 ];
 
 module.exports = { MOCK_CALENDAR };
