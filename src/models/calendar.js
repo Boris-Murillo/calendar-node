@@ -22,6 +22,12 @@ const MOCK_CALENDAR = [
         title: 'Fourth Event',
         start: new Date(),
         end: new Date(),
+    },
+    {
+        id: 5,
+        title: 'Fifth Event',
+        start: new Date(),
+        end: new Date(),
     }
 ];
 
